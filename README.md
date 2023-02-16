@@ -1,4 +1,5 @@
 # Amazon Ion C
+
 A C implementation of the [Ion data notation](http://amzn.github.io/ion-docs).
 
 [![Build Status](https://travis-ci.org/amzn/ion-c.svg?branch=master)](https://travis-ci.org/amzn/ion-c)
@@ -6,6 +7,7 @@ A C implementation of the [Ion data notation](http://amzn.github.io/ion-docs).
 <a title="docs" href="https://amzn.github.io/ion-c"><img src="https://img.shields.io/badge/docs-api-green.svg"/></a>
 
 ## Setup
+
 This repository contains a [git submodule](https://git-scm.com/docs/git-submodule)
 called `ion-tests`, which holds test data used by `ion-c`'s unit tests.
 
@@ -28,6 +30,7 @@ The submodule points to the tip of the branch of the `ion-tests` repository
 specified in `ion-c`'s `.gitmodules` file.
 
 ### Pulling in Upstream Changes
+
 To pull upstream changes into `ion-c`, start with a simple `git pull`.
 This will pull in any changes to `ion-c` itself (including any changes
 to its `.gitmodules` file), but not any changes to the `ion-tests`
@@ -45,10 +48,13 @@ For detailed walkthroughs of git submodule usage, see the
 [Git Tools documentation](https://git-scm.com/book/en/v2/Git-Tools-Submodules).
 
 ## Building the Library
+
 Use the provided scripts `build-release.sh` and `build-debug.sh`. Ensure that `cmake` is installed first.
 
 ### On macOS
+
 `cmake` can be installed using [Homebrew](https://brew.sh/): `brew install cmake`
 
 ## Using the Library
+
 Ion cookbook for C coming soon!
